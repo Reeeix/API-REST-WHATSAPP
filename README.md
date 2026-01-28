@@ -22,16 +22,26 @@ Permite gestionar usuarios, mensajes y las relaciones entre ambas colecciones, i
 ## 🗂️ Arquitectura del proyecto
 
 ```
-src/
- └── api/
-     ├── models/
-     │   ├── usuarios.js
-     │   └── mensajes.js
-     ├── routes/
-     │   ├── users.routes.js
-     │   ├── mensajes.routes.js
-     │   └── mensajes.usuarios.js
-index.js
+PROYECTO API REST - WHATSAPP/
+├── node_modules/
+├── src/
+│   └── api/
+│       ├── models/
+│       │   ├── mensajes.js
+│       │   └── usuarios.js
+│       ├── routes/
+│       │   ├── mensajes.routes.js
+│       │   ├── mensajes.usuarios.js
+│       │   └── users.routes.js
+│       └── utils/
+│           └── seeds/
+│               └── usuarios.seed.js
+├── .env
+├── .gitignore
+├── index.js
+├── package-lock.json
+├── package.json
+└── README.md
 ```
 
 ## 🧩 Modelos y relaciones
